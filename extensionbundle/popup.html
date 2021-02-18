@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Synopsis</title>
+</head>
+
+<body>
+    <div class='container'>
+        <label for="Ratio">Ratio</label>
+        <select name='Ratio' value='30' name="" id="ratio">
+            <option value="30">30%</option>
+            <option value="10">10%</option>
+            <option value="50">50%</option>
+            <option value="70">70%</option>
+            <option value="90">90%</option>
+        </select>
+        <div class="row">
+            <img title='Turn On Text-to-Speech' id='on' width='40px'
+                src="on.png" alt="">
+            <img title='Turn Off Text-to-Speech' id='off' style='margin-left:5px;margin-top: 18px;' width='40px'
+                src="off.png" alt="">
+            <img title='Get Summary' id='sum' style='margin-left:5px;margin-top: 18px;' width='40px' src="sum.png"
+                alt="">
+        </div>
+        <button class='action-button shadow animate green mg' id="highlight">Highlight</button>
+    </div>
+
+    <script src="click.js"></script>
+</body>
+
+</html>
